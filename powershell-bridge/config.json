@@ -1,0 +1,35 @@
+{
+  "firebird": {
+    "host": "localhost",
+    "port": 3050,
+    "user": "sysdba",
+    "password": "masterkey",
+    "databasePath": "C:\\Users\\LENOVO AIO PC\\Desktop\\SAE90EMPRE01_local.FDB",
+    "clientCharset": "WIN1252",
+    "odbcDriverName": "Firebird/InterBase(r) driver",
+    "dialect": 3,
+    "connectionTimeout": 30
+  },
+  "mysql": {
+    "host": "bdjhon.chyuseqm2ltf.us-east-2.rds.amazonaws.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "Peaky*50",
+    "database": "ComunidadDecidida"
+  },
+  "paths": {
+    "sourceDbPath": "C:\\Users\\LENOVO AIO PC\\Downloads\\SAE90EMPRE01\\SAE90EMPRE01.FDB",
+    "localDbPath": "C:\\Users\\LENOVO AIO PC\\Desktop\\SAE90EMPRE01_local.FDB",
+    "outputPath": "C:\\Users\\LENOVO AIO PC\\Desktop\\pruebas de archivos\\"
+  },
+  "rules": {
+    "diasRevision": 5,
+    "vigenciaConvenioDias": 35,
+    "vigenciaCicloEscolarDias": 365,
+    "vigenciaDiaMes": 9,
+    "palabrasProhibidas": ["FONDO DE RESERVA", "FONDO", "INSCRIP", "INSCRIPCION", "ADELANTO", "TARJETA", "TARJE", "ACCESO", "TAG", "APP"],
+    "palabraConvenio": "CONVENIO",
+    "palabraCicloEscolar": "CICLO ESCOLAR",
+    "todosIdsae": false
+  }
+}
